@@ -5,7 +5,7 @@ class Radio :public GeneralDevice
 {
 public:
 	Radio(std::string);
-	virtual std::string getClass() const;
+	virtual std::string getClass() const override;
 	virtual std::string toString() const override;
 	virtual Radio& operator++ ()override;
 	virtual Radio& operator--()override;
