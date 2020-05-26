@@ -13,7 +13,7 @@ public:
 	virtual GeneralDevice& operator--() = 0;
 
 
-private:
+protected:
 	std::string deviceName;
 
 };
