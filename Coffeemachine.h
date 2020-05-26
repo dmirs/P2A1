@@ -6,7 +6,7 @@ class Coffeemachine : public GeneralDevice
 public:
 	Coffeemachine(std::string);
 	virtual std::string getClass() const;
-	virtual std::string toString() const;
+	virtual std::string toString() const override;
 	virtual Coffeemachine& operator++ ()override;
 	virtual Coffeemachine& operator--() override;
 
