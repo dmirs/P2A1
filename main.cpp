@@ -34,7 +34,7 @@ int main() {
 		switch (choice) {
 		case '0':
 			for (auto dev : devices) {
-				actualDevice = dev;
+				//actualDevice = dev;
 				cout << dev->toString() << " wird ausgeschaltet" << endl;
 			}
 			loop = false;
@@ -88,7 +88,7 @@ int main() {
 
 		case '?':
 			for (auto dev :devices) {
-				actualDevice = dev;
+				//actualDevice = dev;
 				cout << dev->toString() << endl;
 			}
 			break;
